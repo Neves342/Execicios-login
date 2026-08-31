@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    pad: 0;
+}
+
+h1 {
+color: #1331a1;
+font-family:Helvetica;
+}
+
+.caixa1 {
+    width: 322px;
+    height: 624px;
+    bottom: 247px;
+    left: 258px;
+    gap: 32px;
+}

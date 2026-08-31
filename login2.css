@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url(Fundo\ 3.png);
+    
+}
+
+.caixa-branca {
+    background-color: #FEFEFE;
+    width:50;
+    padding: 10px;
+    
+}
+
