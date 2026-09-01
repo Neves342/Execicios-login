@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+h1 {
+color: #1331a1;
+font-family:Helvetica;
+}
+
+.caixa-branca {
+    width: 100px;
+    height: 100px;
+    background-color: #c09898;
+    position: absolute;
+    height: 50vh;
+
+}
+
+.container-image {
+    width: 600px;
+    height: 800px;
+    position: absolute;
+    left: 1000px;
+}
+
+.container-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 20% 100%;
+    
+
+    
+}
+
+.caixa2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+/*.caixa2 label, .caixa2 input{
+    margin: 8px 0;
+}
