@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    background-image: url("Fundo 1.png");
+    
+
 }
 
 h1 {
@@ -10,17 +13,15 @@ font-family:Helvetica;
 }
 
 .caixa-branca {
-    width: 100px;
-    height: 100px;
-    background-color: #c09898;
+   background-color: #e6e6e8;
+    width: 800px;
+    height: 900px;
     position: absolute;
-    height: 50vh;
-
 }
 
 .container-image {
-    width: 600px;
-    height: 800px;
+    width: 100vh;
+    height: 100px;
     position: absolute;
     left: 1000px;
 }
@@ -29,9 +30,6 @@ font-family:Helvetica;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 20% 100%;
-    
-
     
 }
 
@@ -44,3 +42,18 @@ font-family:Helvetica;
 /*.caixa2 label, .caixa2 input{
     margin: 8px 0;
 }
+
+
+/*Aqui é a caixa que criamos*/
+
+
+.caixa2 {
+    position: absolute;
+    top: 50%;
+
+}
+
+.lado-direito {
+    margin: 0;
+}
+
