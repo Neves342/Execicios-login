@@ -5,10 +5,19 @@ body{
     
 }
 
-.caixa-branca {
-    background-color: #FEFEFE;
-    width:50;
-    padding: 10px;
+/*.caixa-branca {
+   background-color: #e6e6e8;
+    width: 800px;
+    height: 900px;
+    position: absolute;
+} */
     
+.imagem-fundo {
+height: 100vh;
+width: 5;
+display: flex;
+
 }
+
+
 

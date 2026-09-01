@@ -3,15 +3,16 @@ body {
     padding: 0;
     box-sizing:border-box;
     background-image: url("Fundo 1.png");
-    
-
 }
 
 h1 {
 color: #1331a1;
-font-family:Helvetica;
+font-family:Helvetica; 
 }
 
+p {
+    color: #1331a1;
+}
 .caixa-branca {
    background-color: #e6e6e8;
     width: 800px;
@@ -19,20 +20,22 @@ font-family:Helvetica;
     position: absolute;
 }
 
+/*Estilo da imagem do lado direito*/
 .container-image {
-    width: 100vh;
-    height: 100px;
+    width: 900px;
+    height: 900px;
     position: absolute;
     left: 1000px;
 }
 
+/*Dentro do container estou falando com a imagem em si*/
 .container-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     
 }
-
+ /*Aqui se encontra o formulário*/
 .caixa2{
     display: flex;
     flex-direction: column;
@@ -45,12 +48,22 @@ font-family:Helvetica;
 
 
 /*Aqui é a caixa que criamos*/
-
-
 .caixa2 {
     position: absolute;
     top: 50%;
+    left: 100px;
+    margin-top: 5px;
+    border-radius: 50px;
 
+}
+
+/*Seu funcionamento aqui*/
+.login {
+    background-color: rgb(180, 154, 121);
+    width: 400px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 20px;
 }
 
 .lado-direito {
