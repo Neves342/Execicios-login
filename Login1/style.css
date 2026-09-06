@@ -1,0 +1,68 @@
+body {
+   font-family: jockey-one, sans-serif;
+   color: #1331A1;
+   background: #F2F2F2;
+   
+}
+
+.container {
+   position: absolute;
+   width: 300px;
+   height: 400px;
+   left: 200px;
+   top: 150px;
+   padding: 20px;
+}
+
+.container input {
+  border-radius: 10px;
+  padding: 8px;
+  border: 1px solid #1331A1;
+  width: 300px;
+  display: flex;
+  flex-direction: column; 
+  margin-bottom:  30px;
+  
+}
+
+.button {
+   background-color: #1331A1;
+   color: #F2F2F2;
+   border-radius: 18px;
+   padding: 11px;
+   width: 90px;
+   position: relative;
+   bottom: 10px;
+   left: 110px;
+}
+
+.img1 {
+    
+  position: relative;
+  bottom: 20px;
+  left: 70px;
+}
+
+.img1 .p {
+    color: #1331A1;
+    left: 60px;
+
+}
+
+
+.img2 img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  vertical-align: bottom;
+}
+
+form img{
+   position: absolute;
+   bottom: 92px;
+   left: 310px;
+   width: 18px;
+   height: 14px;
+   cursor: pointer;
+   
+   }
