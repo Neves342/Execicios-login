@@ -2,18 +2,20 @@ body{
     margin:0;
     padding: 0;
     background-image: url(Fundo\ 3.png);
+    box-sizing: border-box;
     
 }
 
-/*.caixa-branca {
+.caixa-branca {
    background-color: #e6e6e8;
     width: 800px;
     height: 900px;
-    position: absolute;
+    position: center;
+    
 } */
     
 .imagem-fundo {
-height: 100vh;
+height: ;
 width: 5;
 display: flex;
 

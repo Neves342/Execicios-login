@@ -2,16 +2,19 @@ body {
    font-family: jockey-one, sans-serif;
    color: #1331A1;
    background: #F2F2F2;
-   
+   margin: 0;
 }
 
+main {
+   display: flex;
+}
 .container {
-   position: absolute;
-   width: 300px;
-   height: 400px;
-   left: 200px;
-   top: 150px;
-   padding: 20px;
+   width: 60vw;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 0 auto;
+   align-items: center;
 }
 
 .container input {
@@ -37,32 +40,30 @@ body {
 }
 
 .img1 {
-    
   position: relative;
   bottom: 20px;
-  left: 70px;
+  left: 0px;
 }
 
 .img1 .p {
     color: #1331A1;
     left: 60px;
-
+    bottom: 10px;
 }
 
 
 .img2 img {
-  position: absolute;
-  right: 0;
-  top: 0;
-  vertical-align: bottom;
+  max-width: 40vw;
+  display: flex;
+  justify-content:flex-end;
+  height: 100vh;
+  
 }
 
 form img{
-   position: absolute;
-   bottom: 92px;
-   left: 310px;
-   width: 18px;
+   position: relative;
    height: 14px;
+   left: 290px;
+   bottom: 54px;
    cursor: pointer;
-   
    }
