@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terceira Tela de Login</title>
+    <link rel="stylesheet" href="login3.css">
 </head>
 <body>
-    <img src="Fundo 3.png" alt="Imagem de fundo">
-    <h1>Music Hall</h1>
-    <div class="caixa-branca">
- <img src="Senac branco.png" alt="Logo Senac">
-    </div>
-
-    <form class="caixa1">
-    <label for="name">login</label>
-    <input type="text" id="text" placeholder="Email ou CPF">
-
-     <label for="name">Senha</label>
-     <input type="text" id="text" placeholder="Senha"> 
-</form>
-  <div class="botao1">
-   <button type="enter">Entrar</button>
-  </div>
- <p>Esqueci a senha</p>
+    <main>
+        <div>
+            <div>
+                <img src="Senac branco.png" alt="logo branco Senac">
+                <h1>Music Hall</h1>
+            </div>
+            <div>
+                <form>
+                    <label for="email">Login:</label>
+                    <input type="email" name="email" id="email" placeholder="Email ou CPF">
+                    <label for="email">Senha:</label>
+                    <input type="password" name="password" id="password" placeholder="Senha">
+                </form>
+                <button type="submit">Entrar</button>
+                <p>Esqueci senha</p> 
+            </div>
+        </div>
+    </main>
 </body>
 </html>

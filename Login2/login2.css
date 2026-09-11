@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-image: url(Fundo\ 3.png);
     box-sizing: border-box;
+    height: 100vh;
     
 }
 
@@ -15,7 +16,7 @@ body{
 } */
     
 .imagem-fundo {
-height: ;
+
 width: 5;
 display: flex;
 
