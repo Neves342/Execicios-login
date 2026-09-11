@@ -1,0 +1,20 @@
+body {
+     margin:0;
+    padding: 0;
+   background-image: url(fundo\3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+div {
+}
+.container {
+   
+}
+
+
+
+.img2 img {
+  
+display: flex;
+}
