@@ -1,4 +1,112 @@
 body {
     margin: 0;
-    
+    padding: 0;
+    color: #1331A1;
+    font-family: jockey one;
+    font-weight: bold;
+    min-height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url('imagem-4.png');
+    z-index: -1;
+}
+
+.introo {
+    width: 261px;
+    height: 233px;
+    background: #FF8D28;
+    border-radius: 10%;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container1 {
+        width: 50%;
+    height: 64%;
+    background: white;
+    border: 2px solid;
+    border-radius: 17px;
+}
+form {
+   /*width: 50%;
+    height: 64%;
+    background: white;
+    border: 2px solid;
+    border-radius: 17px;
+    position: absolute;
+    right: 6%;
+    top: 57%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;*/
+}
+
+form input {
+    padding: 4px ;
+    border: 1px solid #1c1c6b;
+    border-radius: 20px;
+    width: 475px;
+    height: 24px;
+    margin: 1px 1px 25px;
+
+}
+
+.campo-senha {
+ width: 50px;
+height: 80px;
+}
+
+form img {
+    width: 20px;
+    position: relative;
+    right: 37px;
+    top: 7px;
+}
+
+input::placeholder {
+    font-weight: bold;
+    color: #181C49;
+}
+
+
+
+
+
+ form button {
+   display: flex;
+    transform: translateX(380px);
+    padding: 10px;
+    border: 1px solid #1331A1;
+    border-radius: 20px;
+    width: 12vh;
+    color: white;
+    background: #1331A1;
+}
+
+form a {
+   position: relative;
+    left: 49vh;
+    top: 29px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 12vh;
+    color: black;
 }

@@ -1,7 +1,47 @@
 body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body::before {
+    content: "";
+    height: 100vh;
+    width: 100%;
+    position: absolute;
     background-image: url(Fundo\ 3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 98vh;
+    height: 100vh;
+    opacity: 0.6;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.intro {
+    margin-top: 250px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(10px);
+    flex-wrap: nowrap;
+}
+
+.form {
+    height: 686px;
+    width: 795px;
+    background: aliceblue;
+    border-radius: inherit;
+    border-top-left-radius: 25px;
+    display: flex;
+    margin-top: 79px;
+    margin-right: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
 }
