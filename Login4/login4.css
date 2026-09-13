@@ -22,11 +22,10 @@ body::before {
     height: 233px;
     background: #FF8D28;
     border-radius: 10%;
-    position: absolute;
-    left: 25%;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
+    position: relative;
+    left: 30%;
+    transform: translateY(217%);
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,79 +33,60 @@ body::before {
 
 }
 
-.container1 {
-        width: 50%;
-    height: 64%;
-    background: white;
-    border: 2px solid;
-    border-radius: 17px;
-}
-form {
-   /*width: 50%;
-    height: 64%;
-    background: white;
-    border: 2px solid;
-    border-radius: 17px;
-    position: absolute;
-    right: 6%;
-    top: 57%;
-    transform: translateY(-50%);
+
+.container {
     display: flex;
-    align-items: stretch;
-    justify-content: center;
+    justify-content: flex-end;
+    transform: translateY(10px);
+    flex-wrap: nowrap;
+}
+
+.form {
+   height: 461px;
+    width: 795px;
+    background: aliceblue;
+    border-radius: inherit;
+    border-radius: 28px;
+    display: flex;
+    margin-top: -22px;
+    margin-left: 634px;
     flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
-    flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: flex-start;
 }
 
 form input {
-    padding: 4px ;
-    border: 1px solid #1c1c6b;
-    border-radius: 20px;
-    width: 475px;
-    height: 24px;
-    margin: 1px 1px 25px;
-
-}
-
-.campo-senha {
- width: 50px;
-height: 80px;
+    width: 443px;
+    padding: 8px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin: 4px;
 }
 
 form img {
-    width: 20px;
     position: relative;
-    right: 37px;
-    top: 7px;
+    right: 7%;
+    bottom: -13%;
+    height: 19px;
 }
 
-input::placeholder {
-    font-weight: bold;
-    color: #181C49;
-}
-
-
-
-
-
- form button {
-   display: flex;
-    transform: translateX(380px);
-    padding: 10px;
+form button {
+    width: 79px;
+    padding: 8px;
     border: 1px solid #1331A1;
-    border-radius: 20px;
-    width: 12vh;
-    color: white;
-    background: #1331A1;
+    border-radius: 16px;
+    background: blue;
+    margin: 10px;
+    position: relative;
+    right: -48%;
+    bottom: -3%;
 }
 
 form a {
-   position: relative;
-    left: 49vh;
-    top: 29px;
-    padding: 10px;
-    border-radius: 20px;
-    width: 12vh;
-    color: black;
+    position: relative;
+    right: -331%;
+    bottom: -125%;
+    color: #1B1B1B;
 }
