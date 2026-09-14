@@ -8,12 +8,11 @@ body {
     position: relative;
 }
 
-body::before {
-    content: "";
+.img{
     position: absolute;
-    height: 100vh;
-    width: 100%;
-    background-image: url('imagem-4.png');
+    width: 100vw;
+    max-height: 100vh;
+    object-fit: cover;
     z-index: -1;
 }
 
@@ -23,9 +22,8 @@ body::before {
     background: #FF8D28;
     border-radius: 10%;
     position: relative;
-    left: 30%;
-    transform: translateY(217%);
-    
+    left: 24%;
+    transform: translateY(209%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +40,7 @@ body::before {
 }
 
 .form {
-   height: 461px;
+    height: 461px;
     width: 795px;
     background: aliceblue;
     border-radius: inherit;
@@ -60,7 +58,7 @@ body::before {
 form input {
     width: 443px;
     padding: 8px;
-    border: 2px solid blue;
+    border: 1px solid #1331A1;
     border-radius: 10px;
     margin: 4px;
 }
@@ -77,11 +75,12 @@ form button {
     padding: 8px;
     border: 1px solid #1331A1;
     border-radius: 16px;
-    background: blue;
+    background: #1331A1;
     margin: 10px;
     position: relative;
     right: -48%;
     bottom: -3%;
+    color: white;
 }
 
 form a {
@@ -89,4 +88,19 @@ form a {
     right: -331%;
     bottom: -125%;
     color: #1B1B1B;
+}
+
+.seta {
+    position: relative;
+    left: 56%;
+    color: #F2F2F2;
+    width: 22px;
+    height: 25px;
+}
+
+.linha {
+    position: relative;
+    left: 1%;
+    top: 8%;
+    width: 58%;
 }
