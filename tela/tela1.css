@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #1331A1;
+}
+
+h2 {
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+   transform: translate(174px, 19px);
+}
+
+.linha {
+    width: 83%;
+    height: 4px;
+    background-color: #A2CA02;
+    transform: translate(176px, 54px);
+}
+
+.naviga {
+   transform: translate(-206px, 79px);
+   font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    gap: 48px;
+    color: white;
+}
+
+ul a {
+ color: #F31366;
+}
+
+
+.base {
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(148px);
+}
+
+.base img {
+    min-width: 87%;
+}
+
+.container-cards {
+    max-height: 200vh;
+    display: flex;
+    transform: translateY(192px);
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 21%;
+    height: 605px;
+    background-color: #F4F4F4;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cal {
+       display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.cal2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    transform: translateX(-22px);
+}
+
+.t {
+    margin: 25px;
+}
+
+.card button {
+    padding: 10px;
+    border: 0;
+    width: 34%;
+    border-radius: 20px;
+    background-color: #F31366;
+    color: white;
+}
+
+.rodape {
+    padding: 20px;
+    background-color: #A2CA02;
+    transform: translateY(302px);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
