@@ -5,7 +5,15 @@ body {
 }
 
 h2 {
-    
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 64px 160px;
+    color: #D4145B;
+}
+
+h3 {
+   font-size: x-large;
+   font-weight: bold;
 }
 
 header {
@@ -47,44 +55,48 @@ ul a {
 }
 
 .base img {
-    min-width: 87%;
+    min-width: 81%;
+}
+
+.section-events {
+    padding: 18px;
+    margin-top: 172px;
 }
 
 .container-cards {
-    max-height: 200vh;
     display: flex;
-    transform: translateY(192px);
     justify-content: space-evenly;
+    margin-top: 53px;
 }
 
 .card {
-    width: 21%;
-    height: 605px;
+    width: 23%;
+    height: 656px;
     background-color: #F4F4F4;
     border-radius: 4%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 }
 
-.cal {
-       display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    gap: 5px;
-
-}
-
-.cal2 {
+.f1 {
     display: flex;
     flex-direction: row-reverse;
     gap: 20px;
-    transform: translateX(-22px);
+    align-items: center;
+    margin-left: -115px;
 }
 
-.t {
-    margin: 25px;
+.f2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    align-items: center;
+    margin-left: -166px;
 }
+
+
 
 .card button {
     padding: 10px;
@@ -93,13 +105,17 @@ ul a {
     border-radius: 20px;
     background-color: #F31366;
     color: white;
+    margin-top: 23px;
 }
 
 .rodape {
-    padding: 20px;
+    padding: 0px;
     background-color: #A2CA02;
-    transform: translateY(302px);
+    height: 93px;
+    margin-top: 143px;
     display: flex;
     justify-content: center;
     color: white;
+    align-items: center;
+    font-size: 57px;
 }
