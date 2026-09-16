@@ -1,0 +1,65 @@
+.barra {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 44px;
+    color: white;
+}
+
+ul a {
+    color: #F31366;
+}
+
+header img {
+    margin-left: 86px;
+}
+
+nav {
+    margin-right: 86px;
+    margin-top: 42px;
+}
+
+
+
+.linha {
+    width: 91%;
+    height: 4px;
+    background-color: #A2CA02;
+    margin: 15px 86px;
+}
+
+.show {
+    margin: 4% 36%;
+}
+
+.la {
+    margin: 0px 0 -67% -68%;
+}
+
+.container-img1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 12px;
+}
+
+.pin {
+    width: 45px;
+}
+
+.per {
+    width: 50px;
+}
+
+.mon {
+    margin-left: 9px;
+}
+
+.linha2{
+    width: 93%;
+    height: 2px;
+    background-color: #F44528;
+}
