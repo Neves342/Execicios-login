@@ -26,20 +26,27 @@
         <h1>Cadastro de eventos</h1>
         <div class="barra">
         <form action="" class="form">
-            <label for="name_evento">Nome:</label>
+            <label for="nome_evento">Nome:</label>
             <input type="text" name="nome_evento" id="nome-evento">
-            <label for="name">Data do evento:</label>
-            <input type="text" name="" id="">
-            <label for="name">Horário:</label>
-            <input type="text" name="" id="">
-            <label for="name">Capacidade de pessoas:</label>
-            <input type="text" name="" id="">
-            <label for="name">Imagem:</label>
-            <input type="text" name="" id="">
-            <label for="name">Local de evento</label>
-            <input type="text" name="" id="">
-            <label for="name">Preço</label>
-            <input type="text" name="" id="">
+
+            <label for="data">Data do evento:</label>
+            <input type="date" name="data" id="data">
+
+            <label for="hora">Horário:</label>
+            <input type="time" name="hora" id="hora">
+
+            <label for="quant">Capacidade de pessoas:</label>
+            <input type="number" name="quant" id="quant">
+
+            
+            <label for="image">Imagem:</label>
+            <input type="file" name="image" id="image">
+
+            <label for="local">Local de evento</label>
+            <input type="text" name="local" id="local">
+
+            <label for="valor">Preço</label>
+            <input type="text" name="valor" id="valor">
             <div class="button">
             <button type="submit">Continuar cadastro</button>
             </div>

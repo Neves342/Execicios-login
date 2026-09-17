@@ -42,30 +42,33 @@ nav {
 }
 
 .linha {
-    width: 87%;
+    width: 89%;
     height: 4px;
     background-color: #A2CA02;
-    margin-left: 91px;
+    margin-left: 103px;
 }
 
 .barra {
     display: flex;
     justify-content: center;
-    margin-left: -16%;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     gap: 13px;
-    width: 22%;
-    margin-left: 270px;
+    width: 20%;
+
 }
 
 form input {
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid blue;
+    border: 1px solid #1331A1;
+}
+
+input.file {
+  background-color: #1331A1;
 }
 
 form button {
@@ -75,6 +78,7 @@ form button {
     border-radius: 27px;
     background-color: #A2CA02;
     color: white;
+    margin-top: 16px;
 }
 .button {
     display: flex;
@@ -82,11 +86,17 @@ form button {
 }
 
 .rodape {
+    height: 102px;
+    background-color: #A2CA02;
+    margin-top: 149px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 46px;
+    
+}
+
+p {
     background-color: #A2CA02;
-    margin-top: 91px;
     color: white;
+    font-size: 46px;
 }

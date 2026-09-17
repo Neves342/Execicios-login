@@ -45,7 +45,7 @@ nav {
 }
 
 .la {
-    margin: 0px 0 -86% -88%;
+    margin: 0px 0 -69% -69%;
 }
 
 .container-img1 {
@@ -86,12 +86,22 @@ form input {
     border: 1px solid #1331A1;
 }
 
+form ::placeholder {
+    font-weight: bold;
+    color: #1331A1;
+    font-family: sans-serif;
+}
+
+
 .rodape {
     background-color: #A2CA02;
-    height: 58px;
+    height: 25px;
     display: flex;
     font-size: 51px;
     padding: 24px;
     align-items: center;
     justify-content: center;
+    color: white;
+    margin-top: 143px;
+
 }
