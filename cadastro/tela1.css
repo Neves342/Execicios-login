@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #1331A1;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #D4145B;
+}
+
+.cabe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    color: white;
+    display: flex;
+    gap: 33px;
+}
+
+nav a {
+    color: #D4145B;
+}
+
+.intro {
+    margin: 29px 108px;
+}
+
+nav {
+    margin: 0px 111px -58px;
+}
+
+.linha {
+    width: 87%;
+    height: 4px;
+    background-color: #A2CA02;
+    margin-left: 91px;
+}
+
+.barra {
+    display: flex;
+    justify-content: center;
+    margin-left: -16%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 22%;
+    margin-left: 270px;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+form button {
+    width: 47%;
+    padding: 11px;
+    border: 1px solid #A2CA02;
+    border-radius: 27px;
+    background-color: #A2CA02;
+    color: white;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    background-color: #A2CA02;
+    margin-top: 91px;
+    color: white;
+}

@@ -1,3 +1,10 @@
+body{
+    color: #1331A1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
 .barra {
     display: flex;
     justify-content: space-between;
@@ -32,11 +39,13 @@ nav {
 }
 
 .show {
-    margin: 4% 36%;
+    margin-left: 45%;
+    margin-right: 27%;
+    height: 700px;
 }
 
 .la {
-    margin: 0px 0 -67% -68%;
+    margin: 0px 0 -86% -88%;
 }
 
 .container-img1 {
@@ -62,4 +71,27 @@ nav {
     width: 93%;
     height: 2px;
     background-color: #F44528;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    gap: 10px;
+}
+
+form input {
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid #1331A1;
+}
+
+.rodape {
+    background-color: #A2CA02;
+    height: 58px;
+    display: flex;
+    font-size: 51px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
 }
