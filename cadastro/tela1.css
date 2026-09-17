@@ -28,8 +28,13 @@ nav a {
     color: #D4145B;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 .intro {
     margin: 29px 108px;
+    max-height: 60px;
 }
 
 nav {
