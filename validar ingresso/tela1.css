@@ -62,13 +62,14 @@ form {
  display: flex;
  flex-direction: column;
  gap: 12px;
+ width: 403px;
 }
 
 form input {
-   width: 115%;
     padding: 8px;
     border: 1px solid #1331A1;
     border-radius: 10px;
+    text-align: center;
 }
 
 form button {
@@ -78,12 +79,19 @@ form button {
     padding: 9px;
     background: #A2CA02;
     color: white;
+    cursor: pointer;
+    margin-left: 142px;
 }
 
 .rodape {
-
+   background-color: #A2CA02;
+   padding: 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 p {
-
+   font-size: 2.1rem;
+   color: white;
 }
