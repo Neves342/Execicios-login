@@ -1,16 +1,12 @@
-"use strict";
-const input = document.querySelector("input");
-const button = document.querySelector("#senha");
-button.addEventListener('click', senha);
+let senha = document.getElementaryById("senha");
+let icone = document.getElementsByClassName("olho");
 
-function togglePass() {
-
- function senha( ) {
-    if (Input.type == "password") {
-        Input.type = "text";
-        button.textContent = "😊";
-    } else {
-        input.type = "password";
-        button.textContent = "😒";
+function mostrar_senha() {
+    if (senha.type != "text") {
+        senha.type = "text";
+        console.log(senha.type)
     }
- }}
+    else {
+        senha.type = "password";
+    }
+}
