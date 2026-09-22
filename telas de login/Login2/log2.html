@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Segundo login</title>
     <link rel="stylesheet" href="log2.css">
-    <script src="eye.js"></script>
+    <script src="eye.js" defer></script>
 </head>
 <body>
     <main>
@@ -20,7 +20,7 @@
                 <label for="name">Senha</label>
                 <div class="olho">
                 <input type="password"  name="senha" id="senha" placeholder="Senha">
-                <img src="eye.png" alt="mostrar senha">
+                <img src="eye.png" alt="mostrar senha" class="img-olho" onclick="mostrar_senha()">
                 </div>
                 <button type="submit">Entrar</button>
                 <p><a href="esqueci-senha">Esqueci a senha</a></p>

@@ -67,20 +67,21 @@ ul a {
     margin-top: 172px;
 }
 
-.container-cards {
-    display: flex;
-    justify-content: space-evenly;
+.grade-cards {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: auto auto;
+    column-gap: 4%;
+    row-gap: 30px;
+    width: 85%;
 }
 
 .card1 {
-    width: 21%;
-    height: 44vh;
+
     background-color: #F4F4F4;
     border-radius: 4%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+    
 }
 
 .h11{
