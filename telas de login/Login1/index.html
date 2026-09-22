@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <link rel="stylesheet" href="style.css">
-     
+     <script src="log1.js" defer></script>
 </head>
 <body>
     <main>
@@ -17,11 +17,11 @@
             </div>
             <form action="login">
                 <label for="name"> Email ou CPF:</label>
-                <input type="email" name="text" id="text" placeholder="Email ou CPF">
+                <input type="email" name="email" id="email" placeholder="Email ou CPF">
                 <div>
                 <label for="name">Senha:</label>
-                <input type="password" name="text" id="text" placeholder="Senha">
-                 <img src="eye.png" alt="Mostrar senha" class="eye-icon">
+                <input type="password" name="senha" id="senha" placeholder="Senha">
+                 <img src="eye.png" alt="Mostrar senha" class="eye-icon"  class="img-olho" onclick="mostrar_senha()">
                 </div>
                  <button class="button" type="submit">Entrar</button>
             </form>

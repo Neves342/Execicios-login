@@ -1,0 +1,108 @@
+body{
+    color: #1331A1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra_lateral {
+    
+}
+
+header ul {
+    display: flex;
+    gap: 44px;
+    color: white;
+}
+
+ul a {
+    color: #F31366;
+}
+
+header img {
+    margin-left: 86px;
+}
+
+nav {
+    margin-right: 86px;
+    margin-top: 42px;
+}
+
+.linha {
+    width: 91%;
+    height: 4px;
+    background-color: #A2CA02;
+    margin: 15px 86px;
+}
+
+.show {
+    margin-left: 45%;
+    margin-right: 27%;
+    height: 700px;
+}
+
+.la {
+    margin: 0px 0 -69% -69%;
+}
+
+.container-img1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 12px;
+}
+
+.pin {
+    width: 45px;
+}
+
+.per {
+    width: 50px;
+}
+
+.mon {
+    margin-left: 9px;
+}
+
+.linha2{
+    width: 93%;
+    height: 2px;
+    background-color: #F44528;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    gap: 10px;
+}
+
+form input {
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid #1331A1;
+}
+
+form ::placeholder {
+    font-weight: bold;
+    color: #1331A1;
+    font-family: sans-serif;
+}
+
+
+.rodape {
+    background-color: #A2CA02;
+    height: 25px;
+    display: flex;
+    font-size: 51px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 143px;
+}

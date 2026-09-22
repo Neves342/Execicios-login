@@ -54,6 +54,12 @@ form {
   margin-bottom: 30px;
 }
 
+input:focus {
+  border: 2px solid rgb(248, 248, 248);
+  background-color: rgb(219, 221, 221);
+  outline: none;
+}
+
 input::placeholder{
   font-weight: bold;
   color: black;
@@ -75,10 +81,21 @@ form button {
   margin-left: 75px;
 }
 
+button:hover {
+  background-color: #1c148f;
+  border: 0px;
+  font-size: 15px;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
 form a {
   margin-left: 63px;
   margin-bottom: -34px;
   color: black;
+  text-decoration: none;
 }
 
 form img {
