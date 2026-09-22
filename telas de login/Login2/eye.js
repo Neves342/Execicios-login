@@ -1,5 +1,4 @@
 let senha = document.getElementById("senha");
-let icone = document.querySelector(".img-olho");
 
 function mostrar_senha() {
     if (senha.type !== "text") {
