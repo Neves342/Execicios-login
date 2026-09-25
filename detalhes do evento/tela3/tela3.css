@@ -17,6 +17,7 @@ h1 {
 
 .logo_senac {
     margin:0 90px;
+    margin: 4px 90px;
 }
 
 .navi1 {
@@ -103,6 +104,10 @@ hr {
     margin: 0 18%;
 }
 
+.marge {
+    margin: 0 0 83px;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -110,14 +115,47 @@ form {
     color: #1331A1;
 }
 
+label {
+    margin-top: 14px;
+}
+
 input {
     width: 66%;
     padding: 7px;
     border: 1px solid #1331A1;
     border-radius: 9px;
+    font-size: 14px;
 }
 
 input::placeholder {
     color: #1331A1;
     font-weight:bold;
+}
+
+.hrr {
+    background-color: #F44528;
+    height: 1px;
+    width: 100%;
+    position: relative;
+}
+
+footer {
+    background-color: #A2CA02;
+
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 18%;
+}
+
+.par3 {
+    display: flex;
+    flex-direction: column;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
 }
