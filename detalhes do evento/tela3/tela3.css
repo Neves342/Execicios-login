@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Jockey One", sans-serif;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navi1 {
+    margin:0 100px;
+}
+
+.orde1 {
+    display: flex;
+    gap: 58px;
+}
+
+li {
+    color: white;
+}
+
+.au {
+    text-decoration: none;
+    color: #F31366;
+}
+
+hr {
+    width: 70%;
+    height: 5px;
+    color: #A2CA02;
+}
+
+.barra2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 114px;
+    margin-top: 70px;
+}
