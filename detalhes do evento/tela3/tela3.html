@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="barra">
-        <img src="senac.png" alt="logo Senac">
+        <img src="senac.png" alt="logo Senac" class="logo_senac">
         <nav class="navi1">
             <ul class="orde1">
                 <li><a href="#" class="au">Usuário</a></li>
@@ -28,7 +28,7 @@
     <section class="barra2">
         <aside>
             <nav class="navi2">
-                <ul>
+                <ul class="orde2">
                     <li><a href="#" class="ou">Convergência Digital</a></li>
                     <li><a href="#" class="ou">Exemplo Show</a></li>
                     <li><a href="#" class="ou">HackTheFuture</a></li>
@@ -41,10 +41,10 @@
                 </ul>
             </nav>
         </aside>
-        <img src="img_lado.png" alt="pessoa cantando">
+        <img src="img_lado.png" alt="pessoa cantando" class="img_show">
     </section>
     <section>
-        <article>
+        <article class="sec">
              <h1>Exemplo Show</h1>
             <div class="block">
                <div class="par1">
@@ -55,15 +55,20 @@
                 <img src="CashStack.png" alt="">
                 <figcaption>Gratuito</figcaption>
                </div>
+                 </div>
+
+                 <div class="block2">
                <div class="par2">
-                <img src="Pin.png" alt="pin">
+                <img src="Pin.png" alt="pin" class="pin">
                 <figcaption>Senac Musica Hall</figcaption>
+               </div>
                 <div class="par2">
                     <img src="Persona.png" alt="icon de pessoa">
                     <figcaption>Capacidade: 5770 pessoas</figcaption>
                 </div>
                </div>
-            </div>
+               </div>
+          
         </article>
         <div class="linha2"></div>
     </section>
@@ -75,6 +80,7 @@
             <label for="text">Evento</label>
             <input type="text" name="text" id="text" placeholder="Escolha o Evento">
             <label for="number">Quantidade de ingressos</label>
+            <input type="number" name="number" id="number">
             <p class="total">Preço total: R$ 00,00</p>
          </form>
         </div> 

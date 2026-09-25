@@ -2,6 +2,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Jockey One", sans-serif;
+    color: #1331A1;
+}
+
+h1 {
+    color: #1331A1;
 }
 
 .barra {
@@ -10,8 +15,12 @@ body {
     align-items: center;
 }
 
+.logo_senac {
+    margin:0 90px;
+}
+
 .navi1 {
-    margin:0 100px;
+    margin:0 95px;
 }
 
 .orde1 {
@@ -29,9 +38,10 @@ li {
 }
 
 hr {
-    width: 70%;
+    width: 90%;
     height: 5px;
-    color: #A2CA02;
+    background-color: #A2CA02;
+    border: none;
 }
 
 .barra2 {
@@ -39,4 +49,75 @@ hr {
     align-items: flex-start;
     gap: 114px;
     margin-top: 70px;
+}
+
+.orde2 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 22px
+    
+}
+
+.ou {
+    text-decoration: none;
+    color: #1331A1;
+}
+
+.sec {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+    gap: 16px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    gap: 101px;
+}
+
+.par1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 11px;
+}
+
+.block2 {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.par2 {
+    display: flex;
+    align-items: center;
+}
+
+.pin {
+    width: 37px;
+}
+
+.section_two {
+    margin: 0 18%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #1331A1;
+}
+
+input {
+    width: 66%;
+    padding: 7px;
+    border: 1px solid #1331A1;
+    border-radius: 9px;
+}
+
+input::placeholder {
+    color: #1331A1;
+    font-weight:bold;
 }
